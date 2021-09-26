@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Bebas Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonte/Bebas-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Akrobat-Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonte/Akrobat-Thin.otf');
+}
+
 :root {
   --vermelho:#E50914;
   --preta:#141414;
@@ -46,7 +60,7 @@ header nav a:hover {
 .filme-principal {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/capa-house.jpg');
-  height: 560px;
+  height: 500px;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -55,9 +69,66 @@ header nav a:hover {
 }
 
 .filme-principal .descricao {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  margin-top: 1%;
+  font-size: 20px;
+  text-align: justify;
+  width: 40%;
 }
 
 .titulo {
-  font-size: 40px;
+  margin-top: 25%;
+  font-size: 50px;
+  font-family: "Bebas Regular";
+  width: 55%;
+ 
+}
+
+.italic {
+  font-family: "Akrobat-Thin";
+  font-style: italic;
+  font-size: 60%;
+  margin-left: 1%;
+}
+
+.titulo img {
+  height: 35px;
+}
+
+.botao {
+  background-color: rgba(0, 0, 0, .50);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-weight: bold;
+  cursor:pointer;
+  transition: 1s;
+}
+
+.botao:hover {
+  background: white;
+  color: black;
+}
+
+.botao i {
+  margin-right: 8px;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.filme-principal .container {
+  width: 70%;
+}
+
+.box-filmes {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carrossel-filmes {
+  margin-top: 1%;
 }
