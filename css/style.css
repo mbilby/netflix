@@ -86,9 +86,10 @@ header nav a:hover {
 
 .italic {
   font-family: "Akrobat-Thin";
-  font-style: italic;
-  font-size: 60%;
-  margin-left: 1%;
+  /* font-style: italic; */
+  font-size: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .titulo img {
