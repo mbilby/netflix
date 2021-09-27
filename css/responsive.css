@@ -16,3 +16,29 @@
       width: 50%;
     }
 }
+
+@media screen and (max-width: 375px){
+  .filme-principal {
+    font-size: 12px;
+  }
+
+  .filme-principal .container {
+    width: 95%;
+  }
+  .filme-principal .descricao {
+    width: 80%;
+  }
+
+  .titulo {
+    width: 100%;
+    font-size: 40px;
+  }
+  .titulo img {
+    height: 30px;
+  }
+
+  .botao {
+    padding: 10px 10px;
+
+  }
+}
